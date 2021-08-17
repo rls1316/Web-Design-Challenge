@@ -1,9 +1,46 @@
 /*Body*/
 body {
-    width: 100%;
+    background-size: cover;
+    background-color: lightslategray
 }
 
-body {
+/* Navbar*/
+.navbar {
+    max-height: 75px;
+    background-color: white;
+    font-size: 20px;
+  }
+  .navigation .navbar-brand {
+    color: slategray;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .navbar-brand:hover {
+    color: white;
+    background-color: darkslategray
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    color: white;
+    background-color: lightslategray;
+  }
+  .dropdown-item {
+    color: darkslategray;
+    background-color: white;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    color: white;
     background-color: darkslategray;
-}
-
+  } 
+  .nav-link:hover {
+    color: white;
+    background-color: darkslategray;
+   }
+  a {
+    color: slategray;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }

@@ -21,7 +21,7 @@
 
                 <!--Collapse navbar-->
                 <div class = "collapse navbar-collapse justify-content-end" id = "navbarNavDropdown">
-                    <ul class = "navbar-nav">
+                    <ul class = "navbar-nav ms-auto">
                         <li class = "nav-item dropdown">
                             <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdownMenu" role = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
                                 Plots
@@ -43,6 +43,48 @@
                     </ul>
                 </div>
             </nav>
+        </div>
+        <!--Page Content-->
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-lg-7 col-md-12">
+                    <!--Main Page Content-->
+                    <div class = "box">
+                        <h2 class = "title">Summary: Latitude vs. X</h2>
+                        <hr>
+                        <img src = "Resources/assets/images/Fig1.png" id = "main_image"; width = 250; height = 250;>
+                        <p> The purpose of this project  was to analyze how weather changes as you get closer to the equator. 
+                            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                        <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides
+                            the source data and visualizations created as part of the analysis, as well as explanations and descriptions
+                            of any trends and correlations witnessed.</p>
+                    </div>
+                </div>
+                <div class = "col-lg-5 col-md-12">
+                    <!--Visualizations Content-->
+                    <div class = "box">
+                        <h3 class = "title">Visualizations</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-3 col-md-6">
+                                <a href="Max_Temp.html"><img src="Resources\assets\images\Fig1.png" width="100%"  alt="Max_Temp"></a> 
+                            </div>
+                            <div class="col-3 col-md-6">
+                                <a href="Humidity.html"><img src="Resources\assets\images\Fig2.png" width="100%" alt="Humidity"></a>
+                            </div>
+                       
+                            <div class="col-3 col-md-6">
+                                <a href="Cloudiness.html"><img src="Resources\assets\images\Fig3.png" width="100%"  alt="Cloudiness"></a>
+                            </div>
+    
+                            <div class="col-3 col-md-6">
+                                <a href="Wind_Speed.html"><img src="Resources\assets\images\Fig4.png"width="100%"  alt="Wind_Speed"></a>
+                            </div>  
+                        </div>                  
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- JS links-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

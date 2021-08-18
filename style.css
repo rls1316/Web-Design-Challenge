@@ -73,6 +73,10 @@ a:hover img {
 }
 /* Small Screen Adjustments*/
 @media(max-width: 970px) {
+    body {
+        background-size: cover;
+        background-color: white;
+    }
     .navbar-expand-lg {
     background-color:darkslategray !important;
     }

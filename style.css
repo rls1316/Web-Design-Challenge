@@ -9,6 +9,7 @@ body {
     max-height: 45px;
     background-color: white;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 .navigation .navbar-brand {
     color: white;
@@ -55,11 +56,11 @@ a {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container {
-    padding: 30px 30px 30px;
+.box {
     background-color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 30px 30px 30px 30px;
+}
+.container {
     color: darkslategray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

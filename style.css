@@ -63,6 +63,9 @@ a {
     color: darkslategray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h4 {
+    text-align: center;
+}
 a:hover img {
     border: 5px solid darkslategray;
     background-color: darkslategray;
